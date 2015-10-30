@@ -1,0 +1,8 @@
+parameters:
+    performer_vagrant:
+        defaults:
+            remote_php_interpreter: /usr/bin/php
+            remote_site_dir: /var/www
+            remote_symfony_console: /bin/console
+        users:
+            remote_commands: []
